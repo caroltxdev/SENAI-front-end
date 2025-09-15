@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color: #4A738C ;
+}
+.nav{
+    display: flex;
+    font-family: "New Rocker", sans-serif;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #72acc2;
+    padding: 15px;
+    font-size: 20px;
+}
+.navbar{
+    text-decoration: none;
+    color: #0D0D0D;
+    font-size: 25px;
+    
+}
+.nav .item{
+    text-decoration: none;
+    color: #0D0D0D;  
+}
+.navlinks{
+     display: flex;
+     gap: 20px;
+}
+.navlinks :hover{
+    color: white;
+    background-color: #1A2E40;
+    padding: 7px;
+}
+.conteudo{
+    background-color: rgb(235, 245, 255);
+    display: flex;
+    font-family: "New Rocker", sans-serif;
+    padding: 20px;
+    font-size: 15px;
+    flex-direction: column;
+}
+h3{
+    padding: 25px;
+    background-color: #B4D2D9;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 15;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #72acc2;
+}

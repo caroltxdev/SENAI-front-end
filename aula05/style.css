@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+:root{
+    --cor00:#ffffff;
+    --cor01:#ADD6FF;
+    --cor02:#88beff;
+    --cor03:#4DA3F4;
+    --cor04:#3172b8;
+    --cor05:#112980;
+}
+*{
+    margin: 15px;
+}
+body{
+    background-color: var(--cor04);
+    font-family:"Source Serif";
+}
+h1{
+    color: var(--cor00);
+    text-align: center;
+    font-size: 50px;
+}
+input{
+    border: 0px;
+    height: 20px;
+}
+legend{
+    color: var(--cor04);
+    padding: 7px;
+    background-image: linear-gradient(to right, var(--cor00));
+    border-radius: 7px;
+}
+label{
+    color: var(--cor00);
+    font-size: 20px;
+}
+.dados{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 10px;
+}
+.endereco{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 10px;
+}
+.acesso{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 10px;
+}
