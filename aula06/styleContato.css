@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face{
+    font-family: "Vintage";
+    src: url(font/Angelos.ttf);
+}
+@font-face{
+    font-family: "VintageCorpo";
+    src: url(font02/Wasted-Vindey.ttf);
+}
+@font-face{
+    font-family: "plimPlim";
+    src: url(font03/Ruigslay.ttf);
+}
+:root{
+    --cor00: white;
+    --cor01: #025908;
+    --cor02: #4f9788;
+    --cor03: #F2DBAE;
+    --cor04: #BF6B04;
+    --cor05: #BF4904;
+    --cor06: black;
+
+    --fonte01: "Courier Prime", serif;
+    --fonte02: "Vintage", serif;
+    --fonte03: "VintageCorpo", serif;
+    --fonte04: "plimPlim", serif;
+}
+*{
+    margin: 15px;
+}
+body{
+    background-color: var(--cor03);
+}
+header{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: var(--cor05);
+}
+h1{
+    color: var(--cor03);
+    text-align: center;
+    font-size: 45px;
+	font-family: var(--fonte04);
+}
+input{
+    border: 0px;
+    height: 20px;
+}
+legend{
+    color: var(--cor04);
+    padding: 7px;
+    background-image: linear-gradient(to right, var(--cor00));
+    border-radius: 7px;
+}
+label{
+    color: var(--cor00);
+    font-size: 20px;
+	font-family: var(--fonte03);
+}
+.dados{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 10px;
+	border-radius: 10px;
+    border: 2px solid var(--cor05);
+    box-shadow:  10px 10px var(--cor05);
+}
+.endereco{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 10px;
+	border-radius: 10px;
+    border: 2px solid var(--cor02);
+    box-shadow:  10px 10px var(--cor02);
+}
+.acesso{
+    background-color: var(--cor0);
+    padding: 10px;
+    border-radius: 10px;
+	border-radius: 10px;
+    border: 2px solid var(--cor01);
+    box-shadow:  10px 10px var(--cor01);
+}

@@ -1,48 +1,83 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face{
+    font-family: "Vintage";
+    src: url(font/Angelos.ttf);
+}
+@font-face{
+    font-family: "VintageCorpo";
+    src: url(font02/Wasted-Vindey.ttf);
+}
+@font-face{
+    font-family: "plimPlim";
+    src: url(font03/Ruigslay.ttf);
+}
+:root{
+    --cor00: white;
+    --cor01: #025908;
+    --cor02: #4f9788;
+    --cor03: #F2DBAE;
+    --cor04: #BF6B04;
+    --cor05: #BF4904;
+    --cor06: black;
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    --fonte01: "Courier Prime", serif;
+    --fonte02: "Vintage", serif;
+    --fonte03: "VintageCorpo", serif;
+    --fonte04: "plimPlim", serif;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+*{
+    margin: 15px;
 }
-body {
-	line-height: 1;
+body{
+    background-color: var(--cor03);
 }
-ol, ul {
-	list-style: none;
+header{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: var(--cor05);
 }
-blockquote, q {
-	quotes: none;
+h1{
+    color: var(--cor03);
+    text-align: center;
+    font-size: 45px;
+	font-family: var(--fonte04);
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+input{
+    border: 0px;
+    height: 20px;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+legend{
+    color: var(--cor04);
+    padding: 7px;
+    background-image: linear-gradient(to right, var(--cor00));
+    border-radius: 7px;
+}
+label{
+    color: var(--cor00);
+    font-size: 20px;
+	font-family: var(--fonte03);
+}
+.dados{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 10px;
+	border-radius: 10px;
+    border: 2px solid var(--cor05);
+    box-shadow:  10px 10px var(--cor05);
+}
+.endereco{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 10px;
+	border-radius: 10px;
+    border: 2px solid var(--cor02);
+    box-shadow:  10px 10px var(--cor02);
+}
+.acesso{
+    background-color: var(--cor0);
+    padding: 10px;
+    border-radius: 10px;
+	border-radius: 10px;
+    border: 2px solid var(--cor01);
+    box-shadow:  10px 10px var(--cor01);
 }
