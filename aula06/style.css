@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face{
+    font-family: "Vintage";
+    src: url(font/Angelos.ttf);
+}
+@font-face{
+    font-family: "VintageCorpo";
+    src: url(font02/Wasted-Vindey.ttf);
+}
+@font-face{
+    font-family: "plimPlim";
+    src: url(font03/Ruigslay.ttf);
+}
+:root{
+    --cor00: white;
+    --cor01: #025908;
+    --cor02: #4f9788;
+    --cor03: #F2DBAE;
+    --cor04: #BF6B04;
+    --cor05: #BF4904;
+    --cor06: black;
+
+    --fonte01: "Courier Prime", serif;
+    --fonte02: "Vintage", serif;
+    --fonte03: "VintageCorpo", serif;
+    --fonte04: "plimPlim", serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor03);
+}
+header{
+    background-color: var(--cor05);
+    display: flex;
+    justify-content: space-around;
+    gap: 400px;
+    position: sticky;
+    top: 0px;
+}
+.star{
+    padding: 20px;
+    width: 35px;
+    height: 35px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--cor03);
+    font-size: 20px;
+}
+a:hover{
+    color: var(--cor03);
+    background-color: var(--cor02);
+    padding: 7px;
+}
+h1{
+    font-family: var(--fonte04);
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+h2, h3{
+    font-family: var(--fonte04);
+    font-size: 30px;
+}
+p{
+    font-family: var(--fonte03);
+    font-size: 20px;
+}
+#home{
+    background-color: var(--cor03);
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid var(--cor05);
+    box-shadow:  10px 10px var(--cor05);
+}
+#sobre{
+    background-color: var(--cor03);
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid var(--cor02);
+    box-shadow:  10px 10px var(--cor02);
+}
+#lero{
+    background-color: var(--cor03);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 2px solid var(--cor01);
+    box-shadow:  10px 10px var(--cor01);
+}
+footer{
+    background-color: var(--cor05);
+}
+footer > p{
+    font-size: 20px;
+    text-align: center;
+}
