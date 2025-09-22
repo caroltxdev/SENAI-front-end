@@ -1,0 +1,113 @@
+body{
+    background-image: radial-gradient(rgb(208, 169, 245),rgb(184, 120, 243),rgb(136, 26, 240));
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    border-left: 6px solid #ffffff;
+}
+h1{
+    border: 2px solid #9e67e2;
+    background: linear-gradient(135deg, rgb(132, 66, 194), rgb(219, 206, 250));
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(132, 66, 194);
+    padding: 20px;
+    width: 250px;
+    height: 35px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,2);
+    transition: all 0.35s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+h1:hover{
+    background: linear-gradient(135deg, #ffb74d, greenyellow);
+    color: black;
+    transform: scale(0.95);
+    box-shadow: inset 0 4px 6px rgba(0,0,0,3);
+}
+
+.um{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 20px; 
+
+}
+a{
+    margin: 10px;
+    border-radius: 7px;
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,2);
+    transition: all 0.35s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+a:link{
+    background: linear-gradient(135deg, #e1c8ec, #ff07ff);
+    color: white;
+}
+a:visited{
+    background: linear-gradient(135deg, #9c27b0, #4a148c);
+    color: white;
+    border: 2px solid #ff07ff;
+}
+a:hover{
+    background: linear-gradient(135deg, #f3adad, #ff0000);
+    color: black;
+    transform: scale(0.95) rotate(-10deg);
+    box-shadow: inset 0 4px 6px rgba(0,0,0,3);
+}
+a:active{
+    background: linear-gradient(135deg, #02ffab, #00ff11);
+    color: white;
+    transform: scale(0.95);
+    box-shadow: inset 0 4px 6px rgba(0,0,0,4);
+}
+button{
+    background: linear-gradient(135deg, #e1c8ec, #ff07ff);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 25);
+}
+button:hover{
+    background: linear-gradient(135deg, #f3adad, #ff0000);
+    color: black;
+    transform: scale(0.95) rotate(-10deg);
+    box-shadow: inset 0 4px 6px rgba(0,0,0,35);
+}
+button:active{
+    background: linear-gradient(135deg, #02ffab, #00ff11);
+    transform: scale(0.95) translate(2px);
+    box-shadow: inset 0 4px 6px rgba(0,0,0,4);
+}
+.caixa{
+    background:linear-gradient(135deg, pink, salmon);
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    transition: all 0.3 ease;
+    box-shadow: 0 6px 12px black;
+}
+.caixa :hover{
+    background: linear-gradient(200deg, rgb(166, 255, 0), rgb(0, 238, 255));
+    box-shadow: 0 6px 12px black;
+}
+.caixa:active{
+    background: linear-gradient(200deg, rgb(166, 255, 0), rgb(0, 238, 255));
+    box-shadow: 0 6px 12px black
+}

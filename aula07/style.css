@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&display=swap');
+*{
+    margin: 0px;
+}
+:root{
+    --cor00: #ffffff;
+    --cor01: #7566D9;
+    --cor02: #9C99F2;
+    --cor03: #96A0D9;
+    --cor04: #A7BDD9;
+    --cor05: #0d0d0dc2;
+
+    --fontmaquina: "Courier Prime", serif;
+    --fontpoiret: "Poiret One", serif;
+    
+}
+body{
+    background-color: var(--cor04);
+}
+/*-----------------------------------------------------*/
+header{
+    font-family: var(--fontpoiret);
+    background-image: linear-gradient( var(--cor01), var(--cor02), var(--cor03));
+    padding: 20px;
+}
+header > h1{
+    padding: 15px;
+    text-align: center;
+    color: var(--cor00);
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    position: sticky;
+}
+a{
+    text-decoration: none;
+    color: var(--cor00);
+    font-size: 15px;
+}
+a:hover{
+    background-color: var(--cor04);
+    padding: 7px;
+}
+/*-----------------------------------------------------*/
+main{
+    font-family: var(--fontmaquina);
+}
+.posicionamento{
+    color: var(--cor00);
+    background-color: var(--cor01);
+    border-color: var(--cor01);
+    border-radius: 7px;
+    box-shadow: 7px 7px var(--cor05);
+    border-style: solid;
+    padding: 150px;
+    margin: 20px;
+}
+.listas{
+    padding: 100px;
+    background-color: var(--cor02);
+    border-color: var(--cor02);
+    border-radius: 7px;
+    box-shadow: 7px 7px var(--cor05);
+    border-style: solid;
+    margin: 20px;
+    color: var(--cor00);
+}
+.dimensionamento{
+    padding: 100px;
+    background-color: var(--cor03);
+    border-color: var(--cor03);
+    border-radius: 7px;
+    box-shadow: 7px 7px var(--cor05);
+    border-style: solid;
+    margin: 20px;
+    color: var(--cor00);
+}
+.caixa-posicionada{
+    width: 150px;
+    height: 100px;
+    padding: 20px; 
+    background: var(--cor03);
+    color: var(--cor00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 7px;
+    top: 180px;
+    right: 40px;
+}
+/*-----------------------------------------------------*/
+footer{
+    background-color: var(--cor01);
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+footer > p{
+    color: var(--cor00);
+}
